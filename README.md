@@ -29,21 +29,19 @@ If you would like to get fresh updates from upstream later you can add "main" re
         git add remote upstream https://github.com/bitdust-io/blog.git 
 
 
-4. Install hexo framework:
+4. Install hexo framework and other required libraries:
 
-        npm install -g hexo-cli
-        npm install hexo --save
+        npm install
 
 
-5. Generate "LIVE" files:
+5. Generate "LIVE" files for the web site:
 
         hexo gen
 
 
-6. Run server:
+6. Run server on local host:
 
         hexo server
-
 
 
 7. Navigate your web browser to: ``` http :// localhost : 4000 ```
