@@ -31,8 +31,7 @@ If you would like to get fresh updates from upstream later you can add "main" re
 
 4. Install hexo framework:
 
-        npm install -g hexo-cli
-        npm install hexo --save
+        npm install
 
 
 5. Generate "LIVE" files:
