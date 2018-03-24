@@ -1,0 +1,11 @@
+#!/bin/bash
+
+grepnkill hexo
+
+nohup hexo server 1>/dev/null 2>/dev/null &
+
+sleep 1
+
+ps aux | grep hexo | grep -v grep
+
+
