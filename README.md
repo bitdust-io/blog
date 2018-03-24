@@ -20,7 +20,7 @@ This way you become owner of a copy of the source codes. This is fully independe
 
 So you just "forked" some files from upstream, now clone your new repository from github to your local machine:
 
-        git clone https://github.com/myusername/bitdust.blog.git bitdust.blog
+        git clone git@github.com:myusername/bitdust.blog.git bitdust.blog
         cd bitdust.blog
 
 
